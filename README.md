@@ -7,12 +7,12 @@ The modified version of the MeetAndroid library to allow for using SoftwareSeria
 
 http://www.double-oops.org/mini-blog/amarinowithsoftwareserial
 
-I have added a new method called "send_plain" that allows plain serial messages to be sent to the Bluetooth module from the sketch. The default send method contained in the original library modifies the input string to communicate with Amarino on the Anrdoid side so it doesn't work for sending initialization commands to the Bluetooth module.
+I have added a new method called "send_plain" that allows plain serial messages to be sent to the Bluetooth module from the sketch. The default send method contained in the original library modifies the input string to communicate with Amarino on the Android side so it doesn't work for sending initialization commands to the Bluetooth module.
 
 Usage
 -----
 
-Declared MeetAnrdoid in the Arduino sketch:
+Declared MeetAndroid in the Arduino sketch:
 
 	MeetAndroid meetAndroid(3,2, 57600); // using digital pins 3 (Rx) and 2(Tx) for SoftwareSerial at a baud
 										 // rate of 57600
