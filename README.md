@@ -1,7 +1,7 @@
 meetandroid-softserial
 ======================
 
-A modified version of the [Amarino](http://www.amarino-toolkit.net/) MeetAndroid library that includes the ability to use SoftwareSerial for Bluetooth communication as well as perform a Bluetooth module initialization routine. 
+A modified version of the [Amarino](http://www.amarino-toolkit.net/) MeetAndroid library for Arduino that includes the ability to use SoftwareSerial for Bluetooth communication as well as perform a Bluetooth module initialization routine. 
 
 The modified version of the MeetAndroid library to allow for using SoftwareSerial with the Bluetooth module came from here:
 
