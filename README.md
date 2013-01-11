@@ -12,7 +12,7 @@ I have added a new method called "send_plain" that allows plain serial messages 
 Usage
 -----
 
-Declared MeetAndroid in the Arduino sketch:
+Declare MeetAndroid in the Arduino sketch:
 
 	MeetAndroid meetAndroid(3,2, 57600); // using digital pins 3 (Rx) and 2(Tx) for SoftwareSerial at a baud
 										 // rate of 57600
